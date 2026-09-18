@@ -1,0 +1,30 @@
+Raw shape: (2040, 10)
+
+Unparseable dates after coercion: 0
+
+Duplicate rows removed: 38
+
+Negative UnitPrice values corrected (abs): 8
+
+Missing values BEFORE imputation:
+Region            40
+UnitPrice         80
+PaymentMethod     60
+CustomerAge      120
+Sales             60
+dtype: int64
+
+Rows dropped due to unparseable OrderDate: 0
+
+Missing values AFTER imputation:
+Series([], dtype: int64)
+
+Sales: IQR bounds [-1861.52, 4142.21] -> 25 outliers capped
+
+Quantity: IQR bounds [-3.00, 13.00] -> 10 outliers capped
+
+Final cleaned shape: (2002, 13)
+
+Remaining nulls total: 0
+
+Cleaned data saved to /home/claude/project/data/cleaned_sales_data.csv
